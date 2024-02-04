@@ -25,5 +25,9 @@ After applying TOPSIS, the resulting data includes additional columns - Topsis S
 | autotrain-security-text-classification-albert-688320769 | 0.882    | 0.897 | 0.918     | 0.304 | 0.8888       | 1.0  |
 | comments-text-classification-model                      | 0.619    | 0.564 | 0.590     | 1.080 | 0.0          | 5.0  |
 
+## How to Use
+1. Run the TOPSIS algorithm on your dataset with the format, python <Python File> <Input CSV> <Weights> <Impacts> <Output File Name>
+2. The result CSV will be saved in the current directory with Topsis Score and Rank added to the input csv.
+
 ## Contributors
 - Armanjeet Singh Bhullar
