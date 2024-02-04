@@ -1,0 +1,6 @@
+,Accuracy,F1,Precision,Loss
+nickmuchi/distilroberta-finetuned-financial-text-classification,0.890,0.883,0.876,0.446
+krupper/text-complexity-classification,0.991,0.982,0.981,0.554
+nickmuchi/deberta-v3-base-finetuned-finance-text-classification,0.891,0.891,0.892,0.345
+vlsb/autotrain-security-text-classification-albert-688320769,0.882,0.897,0.918,0.304
+EricPeter/comments-text-classification-model,0.619,0.564,0.590,1.080
