@@ -26,7 +26,24 @@ After applying TOPSIS, the resulting data includes additional columns - Topsis S
 | comments-text-classification-model                      | 0.619    | 0.564 | 0.590     | 1.080 | 0.0          | 5.0  |
 
 ## How to Use
-1. Run the TOPSIS algorithm on your dataset with the format, python <Python File> <Input CSV> <Weights> <Impacts> <Output File Name>
+1. Run the TOPSIS algorithm using the following format:
+
+    ```bash
+    python <Python File> <Input CSV> <Weights> <Impacts> <Output File Name>
+    ```
+
+   Replace the placeholders with the appropriate values:
+   
+   - `<Python File>`: The Python script containing the TOPSIS implementation.
+   - `<Input CSV>`: The input CSV file containing the dataset.
+   - `<Weights>`: The weights for each criterion, separated by commas.
+   - `<Impacts>`: The impacts for each criterion (+ for Maximization, - for Minimization), separated by commas.
+   - `<Output File Name>`: The desired name for the output file.
+
+   For example:
+
+   ```bash
+   python topsis_script.py input_data.csv "1,1,1,1" "+,+,-,-" output.csv
 2. The result CSV will be saved in the current directory with Topsis Score and Rank added to the input csv.
 
 ## Contributors
