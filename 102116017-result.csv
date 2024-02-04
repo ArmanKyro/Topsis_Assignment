@@ -1,0 +1,6 @@
+Unnamed: 0,Accuracy,F1,Precision,Loss,Topsis Score,Rank
+nickmuchi/distilroberta-finetuned-financial-text-classification,0.89,0.883,0.876,0.446,0.7938192110935794,3.0
+krupper/text-complexity-classification,0.991,0.982,0.981,0.554,0.7414478280747885,4.0
+nickmuchi/deberta-v3-base-finetuned-finance-text-classification,0.891,0.891,0.892,0.345,0.8705570310151737,2.0
+vlsb/autotrain-security-text-classification-albert-688320769,0.882,0.897,0.918,0.304,0.8887521056230372,1.0
+EricPeter/comments-text-classification-model,0.619,0.564,0.59,1.08,0.0,5.0
